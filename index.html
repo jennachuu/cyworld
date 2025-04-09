@@ -3,17 +3,55 @@
   <head>
     <title>Jenna님의 미니홈피 :: 사이좋은 사람들, 싸이월드</title>
     <link rel="stylesheet" href="./styles/index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
   </head>
   <body>
     <div class="background">
       <div class="outerbox">
         <div class="wrapper">
           <div class="wrapper_left">
-            <div class="wrapper_left_header"></div>
+            <div class="wrapper_left_header">
+              <!-- TODAY 0 | TOTAL 12345 -->
+              <div class="today">
+                <span>TODAY</span>
+                <span>0</span>
+                <span> | TOTAL</span>
+                <span>12345</span>
+              </div>
+            </div>
             <div class="wrapper_left_body">
-              <div class="left_body_header"></div>
-              <div class="left_body_profile"></div>
-              <div class="left_body_footer"></div>
+              <div class="left_body_header">
+                <div class="left_body_header_gray"></div>
+                <div class="left_body_header_line"></div>
+              </div>
+              <div class="left_body_profile">
+                <div class="profile_emoji">
+                  <i class="fa-regular fa-face-smile"> name</i>
+                </div>
+                <div class="profile_emoji">
+                  <i class="fa-solid fa-phone"> phone</i>
+                </div>
+                <div class="profile_emoji">
+                  <i class="fa-solid fa-envelope"> e-mail</i>
+                </div>
+                <div class="profile_emoji">
+                  <i class="fa-solid fa-star">instagram</i>
+                </div>
+              </div>
+              <div class="left_body_footer">
+                <label class="selection">
+                  Today's mood
+                  <select class="feeling_select">
+                    <option value="happy">Happy</option>
+                    <option value="sad">Sad</option>
+                    <option value="angry">Angry</option>
+                    <option value=""></option>
+                  </select>
+                </label>
+              </div>
             </div>
           </div>
           <div class="wrapper_right"></div>
