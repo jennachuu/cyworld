@@ -77,6 +77,7 @@
   height: 100%;
   display: flex;
   flex-direction: column;
+  justify-content: start;
 }
 
 .profile_emoji {
@@ -86,16 +87,20 @@
 
 .left_body_footer {
   width: 100%;
+}
+.wrapper_feel {
+  width: 100%;
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 
-.selection {
-  font-size: 12px;
+.feel_title {
+  font-size: 11px;
   color: gray;
 }
 
-.feeling_select {
+.feel_select {
   width: 100%;
   font-size: 12px;
   margin-top: 5px;
@@ -103,5 +108,35 @@
 .wrapper_right {
   width: 524px;
   height: 472px;
-  background-color: burlywood;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  padding-left: 5px;
+}
+
+.wrapper_right_header {
+  width: 510px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 0px 14px;
+}
+
+.right_header_title,
+.right_header_setting {
+  color: #55b2e4;
+  font-size: 9px;
+}
+
+.right_header_title {
+  font-size: 16px;
+}
+
+.wrapper_right_body {
+  width: 510px;
+  height: 445px;
+  border: 1px solid gray;
+  border-radius: 15px;
+  background-color: white;
 }
